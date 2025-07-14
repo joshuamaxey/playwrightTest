@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
-
 // ! Helper Functions
+
 async function goToHomepage(page) {
     await page.goto("http://automationexercise.com/")
 }
